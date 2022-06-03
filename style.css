@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+@media only screen and (orientation: portrait) {
+	header{
+	width:100%;
+	height:100px;
+
+	
+}
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ backround-color: #333333;
+ postion: relative;
+ height: auto;
+ overflow: auto;
+	
+}
+	
+li a {
+	dispay: block;
+	color: white;
+	padding: 10px 16px;
+	text-decoration: none;
+	}
+	
+	li a.active {
+		background-color: #111;
+		color:white;
+	}
+	
+		
+		
+}
+@media only screen and (orientation: landscape ) {
+	.wrapper{ 
+	width: 800px;
+	height: 400px;
+	background-color: darkcyan;
+	margin: auto;
+	}
+	
+	header{
+		width: 800px;
+		height: 150px;
+	}
+	
+	.nav{ 
+		width: 800px;
+		height: 35px;
+		background-color: #092F5D;
+	}	
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden; 
+		backround-color: #333;
+		
+	}
+	
+	li{
+		float: left;
+	}
+	
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 10px 12px;
+		text-decoration: none;
+	}
+	
+	li a:hover {
+		background-color: lightskyblue;
+	}
+
+
+	article{
+		width: 500px;
+		height: 720px;
+		background-color: #FFFFFF;
+		float: left;
+		box-sizing: border-box;
+		padding:5px 10px;/*flyttar texten ner och till höger*/
+	}
+	
+	aside{
+		width: 300px;
+		height: 720px;
+		background-color: darkblue;
+		float:left;
+		box-sizing: border-box;
+		padding:10px 20px;
+		
+		
+	}
+	footer{
+		width: 800px;
+		height: 100px;
+		background-color: darkblue;
+		clear:both;
+		color: ghostwhite;
+		}
+	h3.headcap{
+		font-family: verdana;
+		font-size: 18px;
+		text-transform: capitalize;
+		
+	}
+	p.art {
+		font-family: times new roman;
+		font-size: 14px;
+	}
+	p.asi{
+		font-family: verdana;
+		font-size: 12px;
+		color: whitesmoke;
+}
+}
